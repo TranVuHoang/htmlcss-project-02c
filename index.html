@@ -96,9 +96,9 @@
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body style="height: 10000px">
     <!-- header -->
-    <header class="header">
+    <header class="header header__fixed">
       <div class="header__container">
         <div class="header__body">
           <!-- logo -->
@@ -142,13 +142,42 @@
           <!-- action -->
           <div class="header__cta">
             <a href="#login" class="btn header__login">Login</a>
-            <button class="btn header__signup">
-              <a href="#signup" class="header__cta-link">Sign up</a>
-            </button>
+            <a href="#signup" class="btn header__signup">Sign up</a>
           </div>
         </div>
       </div>
     </header>
     <!-- end header -->
+
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__body">
+          <div class="hero__content">
+            <div class="hero__title">
+              <h1 class="hero__heading">
+                Lessons and insights
+                <span class="hero--year">from 8 years</span>
+              </h1>
+              <p class="section-desc">
+                Where to grow your business as a photographer: site or social
+                media?
+              </p>
+            </div>
+
+            <a href="#register" class="btn hero__register"> Register </a>
+          </div>
+
+          <div class="hero__media">
+            <img
+              src="./assets/images/svg/hero__media.svg"
+              alt="Lessons and insights from 8 years"
+              class="hero__img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero section -->
   </body>
 </html>
