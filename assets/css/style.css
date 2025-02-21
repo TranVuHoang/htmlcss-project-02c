@@ -46,11 +46,25 @@ a {
   margin: 0 auto;
 }
 
-.section-desc {
+.section-desc2 {
   color: var(--Neutral-Grey, #717171);
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5; /* 150% */
+}
+
+.section-heading2 {
+  color: var(--Neutral-D_Grey, #4d4d4d);
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.22; /* 122.222% */
+}
+
+.section-desc3 {
+  color: var(--Neutral-Grey, #717171);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.42; /* 142.857% */
 }
 
 /*--------------------------------------
@@ -198,6 +212,58 @@ a {
   height: 407px;
 }
 
+/*---------------------------------------------
+# client section styling
+-----------------------------------------------*/
+.client {
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.client__body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.client__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.client__logo-list {
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client__logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+/*---------------------------------------------
+# section styling
+-----------------------------------------------*/
+/*---------------------------------------------
+# section styling
+-----------------------------------------------*/
+/*---------------------------------------------
+# section styling
+-----------------------------------------------*/
+/*---------------------------------------------
+# section styling
+-----------------------------------------------*/
+/*---------------------------------------------
+# section styling
+-----------------------------------------------*/
 /*---------------------------------------------
 # section styling
 -----------------------------------------------*/
